@@ -1,0 +1,5 @@
+{
+  "extends": "@helius/typescript-config/react-library.json",
+  "include": ["../types/*.d.ts", "../types/next-auth.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["dist", "build", "node_modules"]
+}
